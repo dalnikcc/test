@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(155, 155, 155);
+}
+
+.tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag-link {
+  display: inline-block;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #ff77ff;
+  border-radius: 10px
+}
+
+.tag-link:hover {
+  background-color: #4a99a1;
+}
+
+.tag-wrap {
+  padding: 20px;
+  width: 30%;
+  margin: 20px auto;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px
+}
+
+.bold {
+  font-weight: 700;
+}
